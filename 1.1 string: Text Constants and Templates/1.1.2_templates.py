@@ -17,3 +17,12 @@ Variable in text : %(var)iable
 """
 
 print('INTERPOLATION:', s % values)
+
+s = """
+Variable : {var}
+Escape : {{}}
+Variable in text : {var}iable
+"""
+
+print('FORMAT:', s.format(**values))
+
