@@ -5,7 +5,12 @@ class MyTemplate(string.Template):
     idpattern = '[a-z]+_[a-z]+'
     
 template_text = '''
-  Delimeter  :  %%
+  Delimiter  :  %%
   Replaced   : %with_underscore
-  Ignored    : % notunderscored   
+  Ignored    : %notunderscored   
 '''
+
+d = {
+    'with-underscore': 'replaced',
+    'notunderscored': 'not replaced',    
+}
