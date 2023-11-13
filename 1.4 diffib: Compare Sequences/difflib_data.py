@@ -9,7 +9,7 @@ excepturi minus sapiente ducimus architecto dolore velit, eos inventore voluptat
 soluta quos eveniet doloremque omnis.
 """
 
-rext1_lines = text1.splitlines()
+text1_lines = text1.splitlines()
 
 text2 = """Lorem ipsum, dolor sit amet consectetur adipisicing 
 elit. Sapiente numquam velit amet doloremque ad quasi autem itaque 
@@ -24,4 +24,4 @@ veritatis non saepe voluptatem quae labore dolores facere numquam quibusdam temp
 accusantium officia hic.
 """
 
-rext2_lines = text2.splitlines()
+text2_lines = text2.splitlines()
